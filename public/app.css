@@ -1,0 +1,376 @@
+.nav1{
+  background:  #0bac91f6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00C9FF, #0bac91f6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00C9FF, #0bac91f6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    margin: 0;
+
+}
+.collapsecontact, #navbarSupportedContent, .btn-primary, #aboutus p {
+  transition: all 0.5s;
+}
+.navbar-toggler-icon{
+  color: black;
+  font-size: 2rem;
+}
+body{
+  line-height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  transition: all 0.7s;
+}
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+}
+.linkedin-icon{
+  width: 25px;
+}
+.fb-icon{
+width: 13px;
+}
+.nav1link{
+  color: white;
+}
+.nav2link{
+  color: black;
+}
+.nav2link img{
+  width: 10%;
+}
+.navcontact{
+  margin-right: 5%;
+}
+.collapsecontact{
+  width: 100%;
+}
+@media only screen and (max-width: 990px){
+  .nav2link img{
+    width: 2%;
+  }
+}
+@media only screen and (max-width: 1200px){
+  #navbarSupportedContent{
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width: 990px){
+  #navbarSupportedContent{
+    font-size: 1rem;
+  }
+}
+
+#navbarSupportedContent, .nav2link img{
+  transition: all 0.5s;
+  font-weight: 500;
+}
+
+.nav2{
+  background-color: white;
+}
+.nav2brand{
+  width: 50%;
+}
+
+.collapse{
+    margin: auto;
+    margin-left: 20%;
+}
+.btn-primary{
+  background-color: #00C9FF;
+  border: none;
+  font-size: 0.7rem;
+  margin: 10px;
+}
+.btn-primary:hover{
+  background-color: #0bac91f6;
+}
+#body{
+    padding-top: 50px;
+    margin-top: 70px;
+}
+#cities, .odd{
+    background-color:  #7ef6fa33;
+}
+#cities div{
+  padding:0;
+}
+#cities p{
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+#cities img{
+  width: 45px;
+}
+#servicesheadimg{
+  position: absolute;
+left: 2px;
+width: 45px;
+}
+img{
+    position: relative;
+}
+#aboutusimg, #home img, #paryank, .inthenewsbigimg{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+#aboutus button{
+  margin: 0;
+}
+
+
+
+
+
+.property2{
+background-color: #ffffff3a;
+border-radius: 55px;
+height: 55px;
+width: 55px;
+margin: auto;
+}
+.prop1{
+    width: 85%;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+#properties,#advisory{
+  color: white;
+  background:  #0bac91f6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00C9FF, #0bac91f6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00C9FF, #0bac91f6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+}
+.prop2{
+  margin: 0;
+  width: 65%;
+  margin-top: 9px;
+}
+.prop3{
+  width:65px ;
+  position: relative;
+ top: 10px;
+ right: 5px;
+}
+.services img{
+  width: 45px;
+}
+.services p, #howitwork p, #benifits p, .inthenewspara{
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+#howitwork p, #benifits p{
+  padding:5%;
+}
+
+.howsubimg{
+  width: 20%;
+}
+.services a{
+  font-size: 0.9rem;
+  color: black;
+  font-weight: 700;
+}
+.services:hover{
+  background-color: #7ef6fa33;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.411);
+}
+.services, .dots, .more, .mybtn{
+  transition: all 0.5s;
+}
+#bird{
+  height: 60px;
+}
+#bird img{
+  position: absolute;
+  width: 10%;
+  right: 2px;
+}
+.howimg1{
+position: absolute;
+width: 12%;
+right: 10%;
+}
+.howimg2{
+  width: 3%;
+position: absolute;
+right: 1px;
+}
+.benifitimg1, .inthenewsimg1{
+  width: 10%;
+  position: absolute;
+  left: 1px;
+}
+.advisoryimglink{
+  width: 20%;
+  margin: auto;
+}
+#paryank{
+  width: 95%;
+}
+.paryank p{
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+.paryank img{
+  position: absolute;
+  width: 15%;
+  right: 1px;
+}
+
+hr {
+  height: 5px;
+  border: 0;
+  box-shadow: inset 0 7px 7px -7px rgba(0, 0, 0, 0.74);
+}
+
+.black{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+.black2{
+  
+  /* background-size:contain; */
+  background-image: url('../advisor-1.jpg');
+  background-size: cover;
+}
+
+#ruchir{
+  background-color: rgba(0, 0, 0, 0.685);
+   height: 100%;
+   width: 100%;
+   color: white;
+}
+#ruchir p{
+  font-size: 0.8rem;
+  line-height: 1.9;
+  letter-spacing: 2px;
+}
+.somebody{
+  height: 100%;
+   width: 100%;
+}
+.inthenewspara {
+  padding: 20px;
+  
+  text-align: justify;
+}
+.myBtn{
+  color:rgb(21, 155, 245);
+  font-weight: 700;
+}
+.citybutton{
+  border-radius: 25px;
+  width: 100px;
+  border: none;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+.citybutton:hover{
+  color: white;
+  background:  #0bac91f6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00C9FF, #0bac91f6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00C9FF, #0bac91f6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.form-group input{
+height: 60px;
+border: rgba(0, 0, 0, 0.925) solid 1px;
+}
+.form-group textarea{
+  height: 200px;
+  border: rgba(0, 0, 0, 0.925) solid 1px;
+  }
+
+#map{
+  width: 100%;
+}
+#contact p{
+  
+  font-weight: 800;
+}
+#contactimg1{
+  width: 30%;
+  position: absolute;
+  top: 10px;
+  right: 1px;
+}
+.contactimg{
+  width: 35px;
+}
+.newsSmImg{
+  width: 60%;
+  
+}
+.foot{
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+.footpara{
+  width: 100%;
+  background-color: black;
+}
+.proprow{
+height: 20%;
+}
+.proprow2{
+ height: 80%;
+}
+#starhead{
+  padding: 30px;
+  background-color: #7ef6fa33;
+}
+.star{
+  width: 5%;
+  padding: 5px;
+
+}
+@media only screen and (max-width: 990px){
+  #aboutus p, .starhead p{
+    font-size: 0.7rem;
+  }
+  .foot{
+    font-size: 0.7rem;
+  }
+  #aboutus h3
+    {
+      text-align: center;
+    }
+    .advisoryimglink{
+      width: 8%;
+    }
+    #paryank{
+      width: 60%;
+    }
+    .paryank h3, .paryank h4, .paryank h5{
+      text-align: center;
+    }
+    #ruchir p{
+      padding: 5%;
+      font-size: 0.8rem;
+    }
+    #starhead{
+      padding: 30px;
+      background-color: #7ef6fa33;
+    }
+    .star{
+      width: 5%;
+      padding: 5px;
+
+    }
+    .benifitimg1{
+      width: 20%;
+    }
+    .howimg2{
+      width: 10%;
+    }
+    /* #howitwork .blue{
+      background-color: #7ef6fa33;
+    }
+    #howirtwork .white{
+      background-color: white;
+    } */
+  
+}
